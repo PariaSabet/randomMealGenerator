@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Meal Generator</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="row text-center">
+      <h3>
+        Feeling hungry? 🍽️
+      </h3>
+      <h5>Get a random meal by clicking below</h5>
+      <button class="button-primary" id="get_meal">
+        <span>Get Meal</span> 
+        <i class="fas fa-utensils"></i>
+      </button>
+    </div>
+
+    <div class="food-facts-container">
+      <div class="tip-header">
+        <i class="fas fa-lightbulb"></i>
+        <span>Kitchen Tip</span>
+      </div>
+      <div id="food-fact" class="food-fact"></div>
+    </div>
+
+    <div id="meal" class="row meal"></div>
+
+    <div class="right-animation">
+        <span class="food-emoji">🍔</span>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
