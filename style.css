@@ -253,6 +253,7 @@ h5 {
   .container {
     padding: 1rem;
     margin: 1rem;
+    min-width: fit-content;
   }
   
   h3 {
